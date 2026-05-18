@@ -1,0 +1,43 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр Онлайн</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 КиноМарафон</h1>
+        <p>Просмотр фильмов прямо из интернета</p>
+    </header>
+
+    <main>
+        <!-- Секция плеера -->
+        <section id="player-container">
+            <h2>Сейчас в фокусе</h2>
+            <video id="videoPlayer" controls width="100%">
+                Ваш браузер не поддерживает тег video.
+            </video>
+        </section>
+
+        <!-- Секция каталога/рекомендаций -->
+        <section id="movie-list-container">
+            <h2>Популярные фильмы</h2>
+            <div id="movie-grid">
+                <!-- Карточки фильмов будут вставлены сюда JS -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- !!! Вставьте сюда ваш API ключ, если вы используете Google API !!! -->
+    <script>
+        // Заглушка для демонстрации
+        const YOUTUBE_API_KEY = 'ВАШ_API_KEY';
+    </script>
+</body>
+</html>
+```
+
